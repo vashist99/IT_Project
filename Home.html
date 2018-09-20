@@ -2,9 +2,47 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css" >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
   <body>
-    Hello!
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNav">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand">Logo</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNav">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span></a></li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="sidebar">
+          <a href="#home" id="btn-1" data-toggle="collapse" data-target="#submenu1" aria-expanded="false">Categories</a>
+          <ul class="nav collapse" id="submenu1" role="menu" aria-labelledby="btn-1">
+                <li><a href="#" class="sub">Mathematics</a></li>
+                <li><a href="#" class="sub">Physics</a></li>
+                <li><a href="#" class="sub">See All...</a></li>
+            </ul>
+          <a href="#news">Trending Topics</a>
+          <a href="#contact">Account</a>
+          <a href="#about">Help</a>
+    </div>
+    <footer class="container-fluid">
+
+    </footer>
   </body>
 </html>
