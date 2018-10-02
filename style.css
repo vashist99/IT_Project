@@ -19,7 +19,7 @@
   width: 200px;
   background-color: #f1f1f1;
   position: fixed;
-  height: 100%;
+  height: fit-content;
   overflow: auto;
   font-size: 20px;
 }
@@ -43,5 +43,16 @@ div.content {
 }
 .sub {
     text-align: left;
-    font-size: 15px
+    font-size: 15px;
+}
+.my-footer{
+  color: white;
+  background: #666666;
+  position: absolute; 
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  padding:20px;
+  font-size: 18px;
+
 }
