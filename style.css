@@ -45,3 +45,12 @@ div.content {
     text-align: left;
     font-size: 15px
 }
+
+footer {
+  text-align: center;
+  background-color: #222222;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  letter-spacing: 3px;
+}
